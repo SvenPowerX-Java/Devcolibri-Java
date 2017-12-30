@@ -10,7 +10,10 @@ public class Main {
 		
 		short sh = 8;
 		System.out.println(sh);
-		
+		//Ctr + D - добавить строку
+		//Ctr + Y - удалить строку
+		//Ctr + K - commit
+		//Ctr + Shift + K - push
 		
 	}
 }
