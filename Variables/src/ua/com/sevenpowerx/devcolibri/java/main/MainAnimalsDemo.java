@@ -8,18 +8,18 @@ public class MainAnimalsDemo {
 	static Peopel peopel = new Peopel();
 	
 	public static void main(String[] args) {
-		cat.name = "Джорж";
-		cat.poroda = "Перситцкий";
-		cat.age = 2;
+		cat.setName("Джорж");
+		cat.setPoroda("Перситцкий");
+		cat.setAge(2);
 		
 		
-		peopel.name = "Alex";
-		peopel.lastName = "Lavryniuk";
-		peopel.age = 40;
-		peopel.cat = cat;
+		peopel.setName("Alex");
+		peopel.setLastName("Lavryniuk");
+		peopel.setAge(40);
+		peopel.setCat(cat);
 		
 //		System.out.println(cat.toString());
 		System.out.println(peopel);
-		peopel.cat.say();
+		peopel.getCat().say();
 	}
 }
